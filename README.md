@@ -10,12 +10,16 @@ determining the _best_ pair. The _best_ pair is determined by both the number of
 
 Variables:
 **weights:** 
+
 the plates available for you to use (only put one number for each pair)
 **bar:** 
+
 the weight of the bar
 **targetA:** 
+
 one partner's lift
 **targetB:** 
+
 the other partner's lift
 
 The first output array is the configuration for the targetA lift, and the second output array is the configuration for the targetB lift.
