@@ -4,17 +4,24 @@ public class SharedWeightCalculator {
    
    public static void main(String[] args) {
       
-      Scanner input = new Scanner(System.in);
+      //Scanner input = new Scanner(System.in);
       
+      // VARIABLES
+
       double[] weights = {45, 45, 35, 25, 15, 10, 5, 2.5, 1.25};
-      Inventory home = new Inventory(weights);
+      int bar = 45;
+      double targetA = 125;
+      double targetB = 175;
+
+
+
+      Inventory home = new Inventory(weights, bar);
       
 
       //ArrayList<ArrayList<Double>> pA = x.findPermutations(targetA);
       //ArrayList<ArrayList<Double>> pB = x.findPermutations(targetB);
       
-      double targetA = 125;
-      double targetB = 175;
+
       
       /**System.out.println(targetA+" permutations:");
       displayPermutations(home, targetA);
